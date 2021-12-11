@@ -5,8 +5,6 @@
 
 package ProjectEuler;
 
-import java.sql.SQLOutput;
-
 public class Problem2 {
     public static void main(String[] args) {
         int sum = 0, i = 1, j = 2;

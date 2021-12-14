@@ -7,17 +7,15 @@ package ProjectEuler;
 
 import java.util.ArrayList;
 
-public class Problem7 {
+public class Problem07 {
     public static void main(String[] args) {
-        ArrayList<Integer> arr = new ArrayList<>();
+        ArrayList<Integer> arr = new ArrayList<>(10_001);
         arr.add(2);
         int i = 3;
-        Loop:
         while (true) {
             for (int j : arr) {
                 if (i % j == 0) {
                     i += 2;
-                    continue Loop;
                 }
             }
             arr.add(i);

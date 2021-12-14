@@ -11,7 +11,7 @@
 
 package ProjectEuler;
 
-public class Problem6 {
+public class Problem06 {
     public static void main(String[] args) {
         int n = 100;
         int sumSquare = n * (n + 1) * (2 * n + 1) / 6;

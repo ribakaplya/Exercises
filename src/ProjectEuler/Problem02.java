@@ -5,7 +5,7 @@
 
 package ProjectEuler;
 
-public class Problem2 {
+public class Problem02 {
     public static void main(String[] args) {
         int sum = 0, i = 1, j = 2;
         while (j <= 4_000_000) {

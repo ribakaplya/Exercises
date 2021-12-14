@@ -4,7 +4,7 @@
 
 package ProjectEuler;
 
-public class Problem3 {
+public class Problem03 {
     public static void main(String[] args) {
         long num = 600851475143L;
         int del = 2;

@@ -8,7 +8,7 @@
 
 package ProjectEuler;
 
-public class Problem9 {
+public class Problem09 {
 
     //c = 1000 - a - b
     //a^2 + b^2 = a^2 + b^2 + 2*a*b - 2000*a - 2000*b + 10^6
@@ -17,9 +17,8 @@ public class Problem9 {
     public static void main(String[] args) {
         for (int b = 1; b < 1000; b++) {
             if (1000 * (500 - b) % (1000 - b) == 0) {
-                int a, c;
-                a = 1000 * (500 - b) / (1000 - b);
-                c = 1000 - a - b;
+                int a = 1000 * (500 - b) / (1000 - b);
+                int c = 1000 - a - b;
                 System.out.println(a + " " + b + " " + c);
                 break;
             }

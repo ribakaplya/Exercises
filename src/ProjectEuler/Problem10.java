@@ -13,7 +13,7 @@ public class Problem10 {
         long sum = 2L;
         Loop:
         for (int i = 3; i < 2_000_000; i += 2) {
-            for (Integer j : arr) {
+            for (int j : arr) {
                 if (i % j == 0) {
                     continue Loop;
                 }
